@@ -69,3 +69,11 @@
         </svg>
     </a>
 {{ end }}
+{{ if .Site.Params.website_url }}
+    <a target="_blank" class="social" href="{{ .Site.Params.website_url }}">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em">
+            <circle cx="256" cy="256" r="240" fill="currentColor"/>
+            <path d="M326 110a214 214 0 0 1 64 153.56c-2.61 108.18-61.45 194.4-127.48 194.4S135.13 372.74 132.52 264.56A214 214 0 0 1 326 110zM256 32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#fff"/>
+          </svg>
+    </a>
+{{ end }}
