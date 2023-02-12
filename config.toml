@@ -1,4 +1,4 @@
-baseURL = "https://leafy-arithmetic-d79673.netlify.app/"
+baseURL = "http://leafy-arithmetic-d79673.netlify.app/"
 languageCode = "en-us"
 theme = "poison"
 paginate = 10
@@ -42,7 +42,7 @@ pluralizelisttitles = false
     github_url = "https://github.com"
     linkedin_url = "https://linkedin.com"
     twitter_url = "https://dannydemarco.com"
-    # twitter_url = "https://twitter.com" #
+    twitter_url = "https://twitter.com" 
     # mastodon_url = "https://mastodon.social" #
     # tryhackme_url = "https://tryhackme.com" #
     # discord_url = "https://discord.com" #
