@@ -11,7 +11,8 @@ pluralizelisttitles = false
     dark_mode = true                    # optional - defaults to false
 
     # MENU PLACEHOLDER
-    menu = [
+    menu = [{Name = "About", URL = "/about/", HasChildren = false},{Name = "All Blogs", URL = "/blogs/", Pre = "Recent Blogs", HasChildren = true, Limit = 5}]
+    # menu = [
         # Dict keys:
             # Name:         The name to display on the menu.
             # URL:          The directory relative to the content directory.
@@ -35,8 +36,8 @@ pluralizelisttitles = false
         {Name = "All Blogs", URL = "/blogs/", Pre = "Recent Blogs", HasChildren = true, Limit = 5},
 
         # Example of a list without a subheading or limit.
-        # {Name = "Projects", URL = "/projects/"},
-    ]
+        # {Name = "Projects", URL = "/projects/"}
+    ] #
 
     # Links to your socials.  Delete any you don't need/use. 
     github_url = "https://github.com"
