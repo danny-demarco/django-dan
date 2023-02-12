@@ -1,36 +1,54 @@
-baseURL = "/"
+baseURL = ""
 languageCode = "en-us"
-theme = "poison"
+theme = ""
 paginate = 10
 pluralizelisttitles = false
 
 [params]
-    brand = "Poison"                    # name of your site - appears in the sidebar
-    # brand_image = "/images/test.jpg"  # path to the image shown in the sidebar
-    description = "Update this description..."
+    brand = "Django Dan"                    # name of your site - appears in the sidebar
+    brand_image = "/img/profile1.png" 
+    description = "Developing with Python, Django, JavaScript, Bootstrap, HTML5, CSS3, Git"
     dark_mode = true                    # optional - defaults to false
 
     # MENU PLACEHOLDER
-    # Menu dict keys:
-        # Name:         The name to display on the menu.
-        # URL:          The directory relative to the content directory.
-        # HasChildren:  If the directory's files should be listed.  Default is true.
-        # Limit:        If the files should be listed, how many should be shown.
     menu = [
+        # Dict keys:
+            # Name:         The name to display on the menu.
+            # URL:          The directory relative to the content directory.
+            # HasChildren:  If the directory's files should be listed.  Default is true.
+            # Limit:        If the files should be listed, how many should be shown.
+
+        # SINGLE PAGE
+        # Note that you must put your markdown file 
+        # inside of a directory with the same name.
+
+        # Example:
+        # ... /content/about/about.md
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+        
+        # LIST
+        # This example has a subheading of "Recent"
+        # and will display up to 5 items.
+
+        # Example:
+        # ... /content/blogs/introducing-poison.md
+        {Name = "All Blogs", URL = "/blogs/", Pre = "Recent Blogs", HasChildren = true, Limit = 5},
+
+        # Example of a list without a subheading or limit.
+        {Name = "Projects", URL = "/projects/"},
     ]
 
     # Links to your socials.  Delete any you don't need/use. 
     github_url = "https://github.com"
     linkedin_url = "https://linkedin.com"
-    twitter_url = "https://twitter.com"
-    # mastodon_url = "https://mastodon.social"
-    # tryhackme_url = "https://tryhackme.com"
-    # discord_url = "https://discord.com"
-    # youtube_url = "https://youtube.com"
-    # instagram_url = "https://instagram.com"
-    # facebook_url = "https://facebook.com"
+    website_url = "https://dannydemarco.com"
+    # twitter_url = "https://twitter.com" #
+    # mastodon_url = "https://mastodon.social" #
+    # tryhackme_url = "https://tryhackme.com" #
+    # discord_url = "https://discord.com" #
+    # youtube_url = "https://youtube.com" #
+    # instagram_url = "https://instagram.com" #
+    # facebook_url = "https://facebook.com" #
 
     # Hex colors for your sidebar.
     sidebar_bg_color = "#202020"            # default is #202020
