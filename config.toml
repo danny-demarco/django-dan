@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://leafy-arithmetic-d79673.netlify.app/"
 languageCode = "en-us"
 theme = ""
 paginate = 10
