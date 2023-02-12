@@ -7,15 +7,15 @@ pluralizelisttitles = false
 [params]
     brand = "Django Dans Blog"                    # name of your site - appears in the sidebar
     brand_image = "/img/profile1.png" 
-    description = "Developing with Python, Django, JavaScript, Bootstrap, HTML5, CSS3, Git"
+    description = "Developing with Python, Django, JavaScript, Bootstrap, HTML5, CSS3, Git, Docker"
     dark_mode = true                    # optional - defaults to false
 
     # MENU PLACEHOLDER
     menu = [{Name = "About", URL = "/about/", HasChildren = false},{Name = "All Blogs", URL = "/blogs/", Pre = "Recent Blogs", HasChildren = true, Limit = 5},]
 
     # Links to your socials.  Delete any you don't need/use. 
-    github_url = "https://github.com"
-    linkedin_url = "https://linkedin.com"
+    github_url = "https://github.com/danny-demarco"
+    linkedin_url = "https://linkedin.com/danny-demarco"
     website_url = "https://dannydemarco.com"
     # twitter_url = "https://twitter.com" #
     # mastodon_url = "https://mastodon.social" #
