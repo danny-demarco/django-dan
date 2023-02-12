@@ -35,7 +35,7 @@ pluralizelisttitles = false
         {Name = "All Blogs", URL = "/blogs/", Pre = "Recent Blogs", HasChildren = true, Limit = 5},
 
         # Example of a list without a subheading or limit.
-        {Name = "Projects", URL = "/projects/"},
+        # {Name = "Projects", URL = "/projects/"},
     ]
 
     # Links to your socials.  Delete any you don't need/use. 
