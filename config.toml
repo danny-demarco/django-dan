@@ -5,7 +5,7 @@ paginate = 10
 pluralizelisttitles = false
 
 [params]
-    brand = "Django Dans Blog"                    # name of your site - appears in the sidebar
+    brand = "Django Dan"                    # name of your site - appears in the sidebar
     brand_image = "/img/profile1.png" 
     description = "Developing with Python, Django, JavaScript, Bootstrap, HTML5, CSS3, Git, Docker"
     dark_mode = true                    # optional - defaults to false
