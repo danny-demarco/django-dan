@@ -11,7 +11,7 @@ pluralizelisttitles = false
     dark_mode = true                    # optional - defaults to false
 
     # MENU PLACEHOLDER
-    menu = [{Name = "About", URL = "/about/", HasChildren = false},{Name = "All Blogs", URL = "/blogs/", Pre = "Recent Blogs", HasChildren = true, Limit = 5}]
+    menu = [{Name = "About", URL = "/about/", HasChildren = false},{Name = "All Blogs", URL = "/blogs/", Pre = "Recent Blogs", HasChildren = true, Limit = 5},]
 
     # Links to your socials.  Delete any you don't need/use. 
     github_url = "https://github.com"
