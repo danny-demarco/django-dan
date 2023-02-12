@@ -41,7 +41,7 @@ pluralizelisttitles = false
     # Links to your socials.  Delete any you don't need/use. 
     github_url = "https://github.com"
     linkedin_url = "https://linkedin.com"
-    website_url = "https://dannydemarco.com"
+    twitter_url = "https://dannydemarco.com"
     # twitter_url = "https://twitter.com" #
     # mastodon_url = "https://mastodon.social" #
     # tryhackme_url = "https://tryhackme.com" #
