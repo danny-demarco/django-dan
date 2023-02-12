@@ -1,6 +1,6 @@
 baseURL = "https://leafy-arithmetic-d79673.netlify.app/"
 languageCode = "en-us"
-theme = ""
+theme = "poison"
 paginate = 10
 pluralizelisttitles = false
 
